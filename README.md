@@ -77,6 +77,7 @@ Random Forest, a robust ensemble learning algorithm, was employed to predict sto
 
 #### **1. Stock Price Trends Over Time**
 - **Yearly Trends:**
+![](Visualizations)
   - **ENBD and FAB** demonstrated significant growth from 2014 to 2021, with ENBD peaking in 2021 before showing a slight decline.
   - **DIB and ADCB** displayed relatively stable growth, appealing to risk-averse investors.
   - The post-2021 decline for most banks correlates with global market uncertainties, possibly influenced by economic disruptions such as the pandemic.
