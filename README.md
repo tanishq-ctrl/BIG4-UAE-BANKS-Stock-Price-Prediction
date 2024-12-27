@@ -89,6 +89,7 @@ Random Forest, a robust ensemble learning algorithm, was employed to predict sto
 frameborder="0" style="border:0" allowfullscreen 
 sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
 </iframe>
+
 The **"Bank Stock Trends: Price Movement Over Time"** chart illustrates the gradual growth of stock prices over the years, with notable peaks in 2021 for ENBD and FAB. The monthly trend chart highlights the stability in short-term fluctuations.
 
 ---
