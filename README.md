@@ -85,6 +85,10 @@ Random Forest, a robust ensemble learning algorithm, was employed to predict sto
   - A stable price movement across months suggests limited intra-year volatility, making these stocks a reliable investment for long-term holders.
 
 **Visualization:**  
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/cbf43766-8d6b-4ff5-86b8-8ed848d3f10f/page/UVIaE" 
+frameborder="0" style="border:0" allowfullscreen 
+sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
 The **"Bank Stock Trends: Price Movement Over Time"** chart illustrates the gradual growth of stock prices over the years, with notable peaks in 2021 for ENBD and FAB. The monthly trend chart highlights the stability in short-term fluctuations.
 
 ---
