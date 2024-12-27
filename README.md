@@ -83,10 +83,8 @@ Random Forest, a robust ensemble learning algorithm, was employed to predict sto
   - The post-2021 decline for most banks correlates with global market uncertainties, possibly influenced by economic disruptions such as the pandemic.
 
 - **Monthly Trends:**
+![Monthly Trends](Visualizations/2.png)
   - A stable price movement across months suggests limited intra-year volatility, making these stocks a reliable investment for long-term holders.
-
-**Visualization:**  
-[View Interactive Dashboard](index.html)
 
 The **"Bank Stock Trends: Price Movement Over Time"** chart illustrates the gradual growth of stock prices over the years, with notable peaks in 2021 for ENBD and FAB. The monthly trend chart highlights the stability in short-term fluctuations.
 
@@ -94,15 +92,16 @@ The **"Bank Stock Trends: Price Movement Over Time"** chart illustrates the grad
 
 #### **2. Trading Volume Analysis**
 - **Volume Trends:**
+![Volume Trends](Visualizations/4.png)
   - DIB, despite its lower stock price, consistently records higher trading volumes, indicating its liquidity and appeal to a broad investor base.
   - FAB leads in both price and volume, reflecting strong investor confidence in its market leadership.
 
-**Visualization:**  
 The **"Trade Volume Analysis by Bank"** scatter plot shows the relationship between price and trading volume, while the bar chart highlights the 2021 volume spikes, likely due to market recovery post-COVID-19.
 
 ---
 
 #### **3. Moving Average Analysis**
+![Moving Average Analysis](Visualizations/5.png)
 - The 5-day and 10-day moving averages show a consistent upward trend from 2016 to 2021, reflecting steady growth.
 - Post-2021, moving averages plateau, indicating market stabilization.
 
@@ -112,6 +111,7 @@ The **"Moving Average Trends"** chart showcases how short-term (MA5) and medium-
 ---
 
 #### **4. Macroeconomic Dependencies**
+![Macroeconomic Dependencies](Visualizations/6.png)
 - The **DFM Index** aligns closely with **Brent Oil prices**, underscoring the UAE’s reliance on energy markets.
 - Both indices experienced a sharp decline in 2020 due to the global economic downturn but rebounded strongly in 2021.
 
@@ -121,6 +121,7 @@ The **"DFM Index vs. Brent Oil Prices"** bar chart vividly displays the synchron
 ---
 
 #### **5. Price Changes Across Banks**
+![Price Changes Across Banks](Visualizations/7.png)
 - ENBD and FAB experienced significant year-on-year price changes, particularly in 2014 and 2021, driven by macroeconomic growth and recovery phases.
 - ADCB and DIB remained stable, appealing to conservative investors.
 
@@ -130,6 +131,9 @@ The **"Heatmap of Price Changes Across Banks"** highlights the variability in pr
 ---
 
 #### **6. Actual vs. Predicted Prices**
+![Actual Price](Visualizations/13.png)
+![Predicted Price](Visualizations/14.png)
+![Price Changes Across Banks](Visualizations/15.png)
 - **Predicted Trends:**
   - Predictions for daily prices align closely with actual trends, showcasing the model's short-term accuracy.
   - Monthly forecasts, however, deviate significantly for ENBD post-2024, suggesting the need for improved long-term modeling techniques.
