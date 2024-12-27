@@ -72,20 +72,96 @@ Random Forest, a robust ensemble learning algorithm, was employed to predict sto
 **Outcome:** A comprehensive dataset of actual and predicted prices, saved as `combined_forecasts.csv`.
 
 ---
-
-### **Key Insights**
-**1. Stock Price Trends:**
-- ENBD and FAB exhibited significant growth, particularly during 2021, aligning with global recovery trends.
-- DIB showed lower price levels but higher trading volumes, reflecting investor interest in its stability.
-
-**2. Macroeconomic Impact:**
-- A strong correlation was observed between Brent Oil prices and the DFM Index, highlighting the UAE’s dependency on energy markets.
-
-**3. Forecasting Accuracy:**
-- **Daily Forecasts:** Showed higher accuracy due to reduced compounding errors.
-- **Monthly Forecasts:** Displayed greater variance, particularly for ENBD, indicating the need for refinement.
+Here’s an enhanced and more detailed version of the **Key Insights** and **Visual Storytelling** sections, integrating the provided visualizations for a compelling narrative.
 
 ---
+
+### **Key Insights**
+
+#### **1. Stock Price Trends Over Time**
+- **Yearly Trends:**
+  - **ENBD and FAB** demonstrated significant growth from 2014 to 2021, with ENBD peaking in 2021 before showing a slight decline.
+  - **DIB and ADCB** displayed relatively stable growth, appealing to risk-averse investors.
+  - The post-2021 decline for most banks correlates with global market uncertainties, possibly influenced by economic disruptions such as the pandemic.
+
+- **Monthly Trends:**
+  - A stable price movement across months suggests limited intra-year volatility, making these stocks a reliable investment for long-term holders.
+
+**Visualization:**  
+The **"Bank Stock Trends: Price Movement Over Time"** chart illustrates the gradual growth of stock prices over the years, with notable peaks in 2021 for ENBD and FAB. The monthly trend chart highlights the stability in short-term fluctuations.
+
+---
+
+#### **2. Trading Volume Analysis**
+- **Volume Trends:**
+  - DIB, despite its lower stock price, consistently records higher trading volumes, indicating its liquidity and appeal to a broad investor base.
+  - FAB leads in both price and volume, reflecting strong investor confidence in its market leadership.
+
+**Visualization:**  
+The **"Trade Volume Analysis by Bank"** scatter plot shows the relationship between price and trading volume, while the bar chart highlights the 2021 volume spikes, likely due to market recovery post-COVID-19.
+
+---
+
+#### **3. Moving Average Analysis**
+- The 5-day and 10-day moving averages show a consistent upward trend from 2016 to 2021, reflecting steady growth.
+- Post-2021, moving averages plateau, indicating market stabilization.
+
+**Visualization:**  
+The **"Moving Average Trends"** chart showcases how short-term (MA5) and medium-term (MA10) trends closely track each other, reflecting consistent price stability.
+
+---
+
+#### **4. Macroeconomic Dependencies**
+- The **DFM Index** aligns closely with **Brent Oil prices**, underscoring the UAE’s reliance on energy markets.
+- Both indices experienced a sharp decline in 2020 due to the global economic downturn but rebounded strongly in 2021.
+
+**Visualization:**  
+The **"DFM Index vs. Brent Oil Prices"** bar chart vividly displays the synchronized movements of the two indicators, emphasizing the UAE economy’s dependence on oil prices.
+
+---
+
+#### **5. Price Changes Across Banks**
+- ENBD and FAB experienced significant year-on-year price changes, particularly in 2014 and 2021, driven by macroeconomic growth and recovery phases.
+- ADCB and DIB remained stable, appealing to conservative investors.
+
+**Visualization:**  
+The **"Heatmap of Price Changes Across Banks"** highlights the variability in price changes, with ENBD showing more dynamic movement compared to its peers.
+
+---
+
+#### **6. Actual vs. Predicted Prices**
+- **Predicted Trends:**
+  - Predictions for daily prices align closely with actual trends, showcasing the model's short-term accuracy.
+  - Monthly forecasts, however, deviate significantly for ENBD post-2024, suggesting the need for improved long-term modeling techniques.
+- **Residual Analysis:**
+  - Absolute errors are higher for monthly forecasts, particularly for FAB and ENBD, reflecting their higher volatility.
+
+**Visualization:**  
+The **"Actual vs. Predicted Prices Over Time"** chart compares historical and forecasted prices, highlighting the model's strengths and weaknesses. The **"Absolute Error by Forecast Type and Bank Name"** bar chart emphasizes the challenges in long-term forecasting.
+
+---
+
+### **Visual Storytelling**
+
+#### **1. Bank Stock Trends:**
+- Use **line charts** to narrate the growth story of UAE banks, focusing on pivotal years such as 2021, when prices peaked for ENBD and FAB. Highlight the gradual stabilization post-2021.
+
+#### **2. Trading Volume as a Confidence Indicator:**
+- Leverage **scatter plots** and **bar charts** to explain the relationship between price and trading activity. Emphasize FAB’s leadership in both metrics and DIB’s strong trading volume despite lower prices.
+
+#### **3. Macroeconomic Impact:**
+- Showcase the **DFM Index vs. Brent Oil Prices** bar chart to connect stock market performance with macroeconomic factors. Use this to explain how oil dependency drives market trends in the UAE.
+
+#### **4. Prediction Analysis:**
+- Combine **actual vs. predicted price line charts** with **absolute error bar charts** to explain the forecasting model's performance. Highlight the accuracy of daily predictions and the challenges of monthly forecasting, particularly for volatile stocks like ENBD.
+
+#### **5. Moving Average Stability:**
+- Use the **moving average trends** chart to demonstrate the steady growth of stock prices over time, making a case for long-term investment stability in the UAE banking sector.
+
+
+---
+
+This comprehensive storytelling approach ensures that the insights and visualizations are engaging, easy to understand, and provide actionable takeaways for your GitHub audience. Let me know if you’d like me to refine any specific sections!
 
 ### **Visual Storytelling**
 Visualizations played a vital role in communicating insights:
