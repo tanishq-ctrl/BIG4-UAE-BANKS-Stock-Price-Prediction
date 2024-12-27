@@ -72,9 +72,6 @@ Random Forest, a robust ensemble learning algorithm, was employed to predict sto
 **Outcome:** A comprehensive dataset of actual and predicted prices, saved as `combined_forecasts.csv`.
 
 ---
-Here’s an enhanced and more detailed version of the **Key Insights** and **Visual Storytelling** sections, integrating the provided visualizations for a compelling narrative.
-
----
 
 ### **Key Insights**
 
@@ -138,39 +135,6 @@ The **"Heatmap of Price Changes Across Banks"** highlights the variability in pr
 
 **Visualization:**  
 The **"Actual vs. Predicted Prices Over Time"** chart compares historical and forecasted prices, highlighting the model's strengths and weaknesses. The **"Absolute Error by Forecast Type and Bank Name"** bar chart emphasizes the challenges in long-term forecasting.
-
----
-
-### **Visual Storytelling**
-
-#### **1. Bank Stock Trends:**
-- Use **line charts** to narrate the growth story of UAE banks, focusing on pivotal years such as 2021, when prices peaked for ENBD and FAB. Highlight the gradual stabilization post-2021.
-
-#### **2. Trading Volume as a Confidence Indicator:**
-- Leverage **scatter plots** and **bar charts** to explain the relationship between price and trading activity. Emphasize FAB’s leadership in both metrics and DIB’s strong trading volume despite lower prices.
-
-#### **3. Macroeconomic Impact:**
-- Showcase the **DFM Index vs. Brent Oil Prices** bar chart to connect stock market performance with macroeconomic factors. Use this to explain how oil dependency drives market trends in the UAE.
-
-#### **4. Prediction Analysis:**
-- Combine **actual vs. predicted price line charts** with **absolute error bar charts** to explain the forecasting model's performance. Highlight the accuracy of daily predictions and the challenges of monthly forecasting, particularly for volatile stocks like ENBD.
-
-#### **5. Moving Average Stability:**
-- Use the **moving average trends** chart to demonstrate the steady growth of stock prices over time, making a case for long-term investment stability in the UAE banking sector.
-
-
----
-
-This comprehensive storytelling approach ensures that the insights and visualizations are engaging, easy to understand, and provide actionable takeaways for your GitHub audience. Let me know if you’d like me to refine any specific sections!
-
-### **Visual Storytelling**
-Visualizations played a vital role in communicating insights:
-- **Line Charts:** To compare actual vs. predicted prices over time.
-- **Scatter Plots:** To analyze residuals and forecast accuracy.
-- **Bar Charts:** To highlight errors across banks and prediction types.
-- **Heatmaps:** To visualize year-on-year price changes across banks.
-
-Explore the interactive dashboards and code implementations in the repository to dive deeper into the findings.
 
 ---
 
