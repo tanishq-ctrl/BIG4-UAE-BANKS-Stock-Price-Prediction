@@ -1,6 +1,6 @@
 
 
-### **Title: UAE Banking Sector Analysis: Forecasting Stock Prices with Machine Learning**
+### **Title: UAE BIG4 Banking Analysis: Forecasting Stock Prices with Machine Learning**
 
 ---
 
