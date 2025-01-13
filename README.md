@@ -78,24 +78,26 @@ Random Forest, a robust ensemble learning algorithm, was employed to predict sto
 #### **1. Stock Price Trends Over Time**
 - **Yearly Trends:**
 ![Yearly Trends](Visualizations/1.png)
-  - **ENBD and FAB** demonstrated significant growth from 2014 to 2021, with ENBD peaking in 2021 before showing a slight decline.
-  - **DIB and ADCB** displayed relatively stable growth, appealing to risk-averse investors.
-  - The post-2021 decline for most banks correlates with global market uncertainties, possibly influenced by economic disruptions such as the pandemic.
+  - The post-2021 decline for most banks correlates with global market uncertainties, possibly influenced by economic disruptions such as the pandemic. 
+  - **FAB** peaked at **AED 19.58** in 2022, reflecting its dominance in the market. However, a notable decline followed in 2023 and 2024.  
+  - **ENBD** displayed consistent growth, reaching **AED 18.16** in 2024, positioning itself as a strong performer post-2020.  
+  - **ADCB** and **DIB** showed modest growth, with **ADCB** averaging **AED 8.64** and **DIB** averaging **AED 6.03** in 2024, appealing to risk-averse investors.  
 
 - **Monthly Trends:**
 ![Monthly Trends](Visualizations/2.png)
-  - A stable price movement across months suggests limited intra-year volatility, making these stocks a reliable investment for long-term holders.
-
-The **"Bank Stock Trends: Price Movement Over Time"** chart illustrates the gradual growth of stock prices over the years, with notable peaks in 2021 for ENBD and FAB. The monthly trend chart highlights the stability in short-term fluctuations.
-
----
+  - Monthly price trends were stable across all banks, highlighting limited intra-year volatility.  
+  - **FAB** consistently maintained higher values, while **DIB** showed the least fluctuation over months.
+ 
+**Yearly trends clearly depict FAB and ENBD as market leaders.**
+**Monthly trends underline the consistent price stability across banks.**
 
 #### **2. Trading Volume Analysis**
 - **Volume Trends:**
 ![Volume Trends](Visualizations/4.png)
-  - DIB, despite its lower stock price, consistently records higher trading volumes, indicating its liquidity and appeal to a broad investor base.
-  - FAB leads in both price and volume, reflecting strong investor confidence in its market leadership.
-
+  - **DIB** recorded exceptionally high trading volumes in 2014 and 2021, exceeding **17M trades per day** in 2021, showcasing its high liquidity and appeal to active traders.
+  - **FAB** followed closely, with trading volumes peaking at ~**18M in 2021**, aligning with its price dominance during the same year.
+  - **ENBD** and **ADCB** recorded moderate trading volumes, averaging between **3M to 5M trades per day** in recent years.
+    
 The **"Trade Volume Analysis by Bank"** scatter plot shows the relationship between price and trading volume, while the bar chart highlights the 2021 volume spikes, likely due to market recovery post-COVID-19.
 
 ---
@@ -112,8 +114,8 @@ The **"Moving Average Trends"** chart showcases how short-term (MA5) and medium-
 
 #### **4. Macroeconomic Dependencies**
 ![Macroeconomic Dependencies](Visualizations/6.png)
-- The **DFM Index** aligns closely with **Brent Oil prices**, underscoring the UAE’s reliance on energy markets.
-- Both indices experienced a sharp decline in 2020 due to the global economic downturn but rebounded strongly in 2021.
+- Strong correlations between the **DFM Index** and **Brent Oil prices** underline the UAE's reliance on energy markets.  
+- The **DFM Index** peaked at **356.6 in 2022**, reflecting post-pandemic recovery, while **Brent Oil prices** reached **~300 AED in 2023**.
 
 **Visualization:**  
 The **"DFM Index vs. Brent Oil Prices"** bar chart vividly displays the synchronized movements of the two indicators, emphasizing the UAE economy’s dependence on oil prices.
@@ -122,8 +124,9 @@ The **"DFM Index vs. Brent Oil Prices"** bar chart vividly displays the synchron
 
 #### **5. Price Changes Across Banks**
 ![Price Changes Across Banks](Visualizations/7.png)
-- ENBD and FAB experienced significant year-on-year price changes, particularly in 2014 and 2021, driven by macroeconomic growth and recovery phases.
-- ADCB and DIB remained stable, appealing to conservative investors.
+ - **ENBD** experienced consistent growth with notable spikes in **2021** and **2024**, driven by macroeconomic recovery phases.  
+ - **FAB** showed a sharp increase in **2022**, followed by a dip in **2023**, reflecting market corrections.  
+ - **ADCB** and **DIB** exhibited minimal year-on-year price changes, reinforcing their stability for conservative investors.
 
 **Visualization:**  
 The **"Heatmap of Price Changes Across Banks"** highlights the variability in price changes, with ENBD showing more dynamic movement compared to its peers.
@@ -153,6 +156,5 @@ The **"Actual vs. Predicted Prices Over Time"** chart compares historical and fo
 
 ### **Conclusion**
 This project offers a robust framework for analyzing and forecasting stock prices in the UAE banking sector. By integrating market trends, macroeconomic factors, and machine learning, it provides valuable insights for investors and policymakers alike.
-
 
 
