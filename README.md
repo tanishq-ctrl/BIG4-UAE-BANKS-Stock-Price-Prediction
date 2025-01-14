@@ -134,8 +134,8 @@ The **"Heatmap of Price Changes Across Banks"** highlights the variability in pr
 ---
 
 #### **6. Actual vs. Predicted Prices**
-![Actual Price](Visualizations/16.png)
-![Predicted Price](Visualizations/17.png)
+![Actual Price](Visualizations/actual.png)
+![Predicted Price](Visualizations/predicted.png)
 - **Predicted Trends:**
   - Predictions for daily prices align closely with actual trends, showcasing the model's short-term accuracy.
   - Monthly forecasts, however, deviate significantly for ENBD post-2024, suggesting the need for improved long-term modeling techniques.
